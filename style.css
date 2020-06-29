@@ -1,0 +1,67 @@
+body {
+    background: rgb(172,75,75);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-family: 'Teko', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.in {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    background-color: white;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+#in {
+    border: 0;
+    height: 98px;
+    font-size: 50px;
+    outline:none;
+}
+
+#but {
+    border: 0;
+    background-color: white;
+    outline:none;
+    font-size: 50px;
+    color: rgb(172,75,75);
+}
+
+#result {
+    background-color: white;
+    height: 400px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Teko', sans-serif;
+    overflow: auto;
+}
+
+.time {
+    color: #AEB7C8;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    display: inline-block;
+    float: right;
+}
+
+#DELETE {
+    background-color: red;
+    border: 0;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 50%;
+    outline: none;
+}
